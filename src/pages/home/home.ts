@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 import { NavController } from 'ionic-angular';
-import { User } from '../../models/models';
+import { M } from '../../models/models';
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -9,7 +9,7 @@ import { User } from '../../models/models';
 export class HomePage {
 
   constructor(public navCtrl: NavController) {
-    console.log(User.UserTypeEnum);
+    console.log(M.mm);
   }
 
 }
